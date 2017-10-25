@@ -7,7 +7,7 @@
 // @author      KJ86
 // @icon        data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDYuMzQ5OTk5OSA2LjM0OTk5OTkiPjxnIGZpbGw9IiM4MjhhOTkiPjxwYXRoIGQ9Im0gMi42NDU4MzMsMS41ODc0OTk5IGMgMC41MjkxNjcsMTBlLTggLTEuMzU0MzkxMyw4ZS03IDEuMDU4MzMzNiwxMGUtOCB2IDEuMzIyOTE2NiBoIDAuNzkzNzUgTCAzLjE3NSw0LjQ5NzkxNjYgMS44NTIwODMsMi45MTA0MTY2IGggMC43OTM3NSB6IiAvPjxwYXRoIGQ9Ik0gMS44NTIwODMsNC40OTc5MTY2IEggMS41ODc0OTk3IHYgMC41MjkxNjY2IGwgMy4xNzUwMDAyLDFlLTcgViA0LjQ5NzkxNjYgSCA0LjQ5NzkxNjYgdiAwLjI2NDU4MzMgbCAtMi42NDU4MzM2LDAgeiIgLz48L2c+PC9zdmc+
 // @homepage    https://greasyfork.org/ru/scripts/7385-vkdownloadmedia
-// @downloadURL https://greasyfork.org/scripts/7385-vkdownloadmedia/code/VKDownloadMedia.user.js
+// @downloadURL https://github.com/nindogo/VKDownloadMedia/raw/master/VKDownloadMedia.user.js
 // @supportURL  https://vk.com/vkdownloadmedia
 // @include     *
 // @run-at      document-end
@@ -197,11 +197,12 @@
             }
 
             // Photo
+            /*
             var photosAlbumInfo = geByClass1('photos_album_info');
 
             if (photosAlbumInfo && !ge('vkdm_download_album')) {
                 photosAlbumInfo.parentNode.appendChild(cf('<span class="divide">|</span><span class="photos_album_info"><a id="vkdm_download_album" onclick="VKDM.downloadPhotoAlbumsList(); return false;">Скачать альбом</a></span>'));
-            }
+            } */
 
             // Play List
             if (isDwnlPlBtnAdd === false && ap._currentPlaylist) {
@@ -246,7 +247,7 @@
                     bitrate = parseInt(fileSize * 8 / duration / 1000);
                 }
 
-                return 'Скачать аудиозапись<br>Битрейт: ~' + bitrate + ' кбит/с<br>Размер: ' + fileSizeMByte + ' МБ';
+                return 'Download Audio<br>Bitrate: ~' + bitrate + ' кбит/с<br>Размер: ' + fileSizeMByte + ' МБ';
             };
 
             if (!data(audioRow, 'vkdm_audio_row_duration') && !btn.classList.contains('vkdm_ajax_in_progress')) {
