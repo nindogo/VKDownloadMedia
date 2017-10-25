@@ -175,7 +175,7 @@
                             domInsertBefore(ce('div', {
                                 className: 'mv_more fl_l',
                                 id: 'mv_download',
-                                innerHTML: 'Скачать'
+                                innerHTML: 'Download'
                             }), ge('mv_more'));
 
                             new InlineDropdown('mv_download', {
