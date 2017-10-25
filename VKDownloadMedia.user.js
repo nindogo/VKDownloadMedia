@@ -2,7 +2,7 @@
 // @name        VKDownloadMedia
 // @description Скачать фото/аудио/видео-файлы с соц. сети ВКонтакте.
 // @namespace   https://github.com/KJ86/VKDownloadMedia
-// @version     5.4.1
+// @version     5.4.1.1
 // @date        2017-07-16
 // @author      KJ86
 // @icon        data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDYuMzQ5OTk5OSA2LjM0OTk5OTkiPjxnIGZpbGw9IiM4MjhhOTkiPjxwYXRoIGQ9Im0gMi42NDU4MzMsMS41ODc0OTk5IGMgMC41MjkxNjcsMTBlLTggLTEuMzU0MzkxMyw4ZS03IDEuMDU4MzMzNiwxMGUtOCB2IDEuMzIyOTE2NiBoIDAuNzkzNzUgTCAzLjE3NSw0LjQ5NzkxNjYgMS44NTIwODMsMi45MTA0MTY2IGggMC43OTM3NSB6IiAvPjxwYXRoIGQ9Ik0gMS44NTIwODMsNC40OTc5MTY2IEggMS41ODc0OTk3IHYgMC41MjkxNjY2IGwgMy4xNzUwMDAyLDFlLTcgViA0LjQ5NzkxNjYgSCA0LjQ5NzkxNjYgdiAwLjI2NDU4MzMgbCAtMi42NDU4MzM2LDAgeiIgLz48L2c+PC9zdmc+
